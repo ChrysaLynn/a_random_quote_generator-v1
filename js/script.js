@@ -3,13 +3,7 @@ Treehouse FSJS Techdegree:
 project 1 - A Random Quote Generator
 ******************************************/
 
-// For assistance: 
-  // Check the "Project Resources" section of the project instructions
-  // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
-
-/*** 
- * `quotes` array 
-***/
+// Random quotes array 
 
 const quotes = [
   {
@@ -25,13 +19,13 @@ const quotes = [
    year: ''
   },
   {
-    quote: 'Women challenge the status quo becasue we are never it.',
+    quote: 'Women challenge the status quo because we are never it.',
     source: 'Cindy Gallop',
     citation: '',
     year: ''
   },
   {
-    quote: 'The greatest discovery of my generation is that a human being can alster his life by altering his attitudes.',
+    quote: 'The greatest discovery of my generation is that a human being can alter his life by altering his attitudes.',
     source: 'William James',
     citation: '',
     year: ''
@@ -62,16 +56,19 @@ const quotes = [
   } 
 ]
 
+// Function to create a random number to retrieve an random array item
+
 function getRandomQuote () {
   let randomNumber = Math.floor(Math.random() * quotes.length);
-  // console.log(randomNumber);
-  // console.log(quotes[randomNumber]);
   return randomNumber;
 } 
-// getRandomQuote();
+
+// Declaring the variables used in the function below
 
 let quoteString;
 let quoteObject;
+
+// This function will call the getRandomQuote() function, then use that array item to create an HTML string with quote properties that'll be displayed in the browser
 
 function printQuote () {
   quoteObject = quotes[getRandomQuote()];
@@ -88,29 +85,5 @@ function printQuote () {
   document.getElementById('quote-box').innerHTML = quoteString;
 }
 
-
-// printQuote();
-// console.log(quoteString);
-// console.log(quoteObject);
-
-// document.getElementById('quote-box').innerHTML = printQuote(); 
-
-
-/***
- * `getRandomQuote` function
-***/
-
-
-
-/***
- * `printQuote` function
-***/
-
-
-
-/***
- * click event listener for the print quote button
- * DO NOT CHANGE THE CODE BELOW!!
-***/
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
