@@ -1,5 +1,3 @@
 ## Random Quote Generator
 
-[Live Demo](https://github.com/ChrysaLynn/random_quote_generator)
-
-
+[Live Demo](https://chrysalynn.github.io/random_quote_generator/)
