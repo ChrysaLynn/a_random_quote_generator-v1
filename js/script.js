@@ -7,7 +7,7 @@ project 1 - A Random Quote Generator
 
 const quotes = [
   {
-    quote: 'Words offer the means to meaning, and for those who will listen, the enunciaiton of truth.',
+    quote: 'Words offer the means to meaning, and for those who will listen, the enunciation of truth.',
     source: 'V',
     citation: 'V for Vendetta',
     year: '2005'
@@ -49,7 +49,7 @@ const quotes = [
     year: '2004'
   },
   {
-    quote: 'We build our computer (systems) the way we build our citites: over time, without a plan, on top of ruins.',
+    quote: 'We build our computer (systems) the way we build our cities: over time, without a plan, on top of ruins.',
     source: 'Ellen Ullman',
     citation: 'Twitter @CodeWisdom',
     year: '2017'
