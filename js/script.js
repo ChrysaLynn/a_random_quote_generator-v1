@@ -19,8 +19,8 @@ const quotes = [
    year: ''
   },
   {
-    quote: 'Women challenge the status quo because we are never it.',
-    source: 'Cindy Gallop',
+    quote: 'No one in the brief history of computing has ever written a piece of perfect software. It\'s unlikely that you\'ll be the first.',
+    source: 'Andy Hunt',
     citation: '',
     year: ''
   },
@@ -31,8 +31,8 @@ const quotes = [
     year: ''
   },
   {
-    quote: 'The most dangerous phrase in the language is, "We\'ve always done it this way."',
-    source: 'Grace Hopper',
+    quote: 'One of my most productive days was throwing away 1,000 lines of code.',
+    source: 'Ken Thompson',
     citation: '',
     year: ''
   },
@@ -53,6 +53,24 @@ const quotes = [
     source: 'Ellen Ullman',
     citation: 'Twitter @CodeWisdom',
     year: '2017'
+  },
+  {
+    quote: 'Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.',
+    source: 'Eagleson\'s Law',
+    citation: '',
+    year: ''
+  },
+  {
+    quote: 'There are only two kinds of languages: the ones people complain about and the ones nobody uses.',
+    source: 'Bjarne Stroustrup',
+    citation: '',
+    year: ''
+  },
+  {
+    quote: 'Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday\'s code.',
+    source: 'Dan Salomon',
+    citation: '',
+    year: ''
   } 
 ]
 
