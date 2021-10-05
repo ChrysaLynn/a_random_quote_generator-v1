@@ -81,7 +81,6 @@ function printQuote () {
     quoteString += `<span class="year">${quoteObject.year}</span>`;
   }
   quoteString += `</p>`;
-  console.log(quoteObject);
   document.getElementById('quote-box').innerHTML = quoteString;
 }
 
