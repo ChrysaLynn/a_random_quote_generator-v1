@@ -2,7 +2,7 @@
 
 [Live Demo](https://chrysalynn.github.io/random_quote_generator/)
 
-## This project was built using
+## This project was built using:
 
 - HTML (provided by Treehouse)
 - CSS (provided by Treehouse)
