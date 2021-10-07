@@ -78,7 +78,7 @@ const quotes = [
 
 function getRandomQuote () {
   let randomNumber = Math.floor(Math.random() * quotes.length);
-  return randomNumber;
+  return quotes[randomNumber];
 } 
 
 // Declaring the variables used in the function below
@@ -89,7 +89,7 @@ let quoteObject;
 // This function will call the getRandomQuote() function, then use that array item to create an HTML string with quote properties that'll be displayed in the browser
 
 function printQuote () {
-  quoteObject = quotes[getRandomQuote()];
+  quoteObject = getRandomQuote();
   quoteString = `<p class="quote">${quoteObject.quote}</p>
   <p class="source">${quoteObject.source}`;
   if (quoteObject.citation) {
